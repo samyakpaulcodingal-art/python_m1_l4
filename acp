@@ -1,0 +1,14 @@
+# --- Step 1: Import the math module ---
+import math
+
+# --- Step 2: Set up the number ---
+number = 64
+
+# --- Step 3: Use math.sqrt() to calculate the square root ---
+# Python will calculate the square root of 64 and store it in our variable
+square_root = math.sqrt(number)
+
+# --- Step 4: Print the final answer ---
+print("--- Square Root Calculator ---")
+print("The original number is:", number)
+print("The square root of", number, "is:", square_root)
